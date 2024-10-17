@@ -64,7 +64,7 @@ export default function Page() {
           </nav>
           <div className="flex items-center space-x-4">
             <Link
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/edrine-hagosojos/"
               className="hidden md:flex items-center space-x-1 text-sm hover:text-zinc-400"
               target="_blank"
               rel="noopener noreferrer"
@@ -73,7 +73,7 @@ export default function Page() {
               <ExternalLink size={14} />
             </Link>
             <Link
-              href="/resume"
+              href="https://drive.google.com/file/d/13CYSzhVn9Fa_z-tiS25hOx-gHYxbKL8b/view?usp=sharing/"
               className="hidden md:flex items-center space-x-1 text-sm hover:text-zinc-400"
             >
               <span>Resume</span>
@@ -167,7 +167,7 @@ export default function Page() {
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className="text-lg sm:text-xl text-gray-400 mb-12 text-center"
                 >
-                  <p>Software Developer. Based in Philippines.</p>
+                  <p>Designer & Developer. Based in Philippines.</p>
                   <p className="text-gray-500 pb-5">
                     Formerly at Google and RBC.
                   </p>
