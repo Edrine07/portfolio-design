@@ -35,7 +35,7 @@ export default function Page() {
             </div>
             <div>
               <h1 className="text-md font-medium">Edrine Hagosojos</h1>
-              <p className="text-xs text-gray-400">Software Developer</p>
+              <p className="text-xs text-gray-400">Developer & Designer</p>
             </div>
           </div>
           <nav className="hidden md:flex items-center justify-center flex-1">
@@ -73,6 +73,7 @@ export default function Page() {
               <ExternalLink size={14} />
             </Link>
             <Link
+              target="_blank"
               href="https://drive.google.com/file/d/13CYSzhVn9Fa_z-tiS25hOx-gHYxbKL8b/view?usp=sharing/"
               className="hidden md:flex items-center space-x-1 text-sm hover:text-zinc-400"
             >
@@ -167,9 +168,9 @@ export default function Page() {
                   transition={{ duration: 0.8, delay: 0.2 }}
                   className="text-lg sm:text-xl text-gray-400 mb-12 text-center"
                 >
-                  <p>Designer & Developer. Based in Philippines.</p>
+                  <p>Software Developer & UI/UX Designer.</p>
                   <p className="text-gray-500 pb-5">
-                    Formerly at Google and RBC.
+                    Based in the Phillipines.
                   </p>
                 </motion.div>
                 <motion.div
@@ -186,7 +187,7 @@ export default function Page() {
                   </div>
                 </div>
                 <div className="pt-12">
-                  <Footer/>
+                  <Footer />
                 </div>
               </div>
             </main>
@@ -202,8 +203,8 @@ export default function Page() {
             transition={{ duration: 0.5 }}
           >
             <main className="pt-32 pb-24 px-4">
-              <About/>
-              <Footer/>
+              <About />
+              <Footer />
             </main>
           </motion.div>
         )}
