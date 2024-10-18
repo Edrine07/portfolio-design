@@ -80,7 +80,7 @@ export default function Page() {
               <ExternalLink size={14} />
             </Link>
             <button
-              className="md:hidden w-10 h-10 flex items-center justify-center rounded-full bg-gray-100/40 backdrop-blur-sm text-gray-200 focus:outline-none focus:ring-2 focus:ring-gray-400"
+              className="md:hidden w-10 h-10 flex items-center justify-center rounded-full bg-gray-100/20 backdrop-blur-sm text-gray-200 border border-gray-50/50 focus:outline-none focus:ring-1 focus:ring-gray-50/50"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
               aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             >
@@ -151,7 +151,7 @@ export default function Page() {
                   initial={{ opacity: 0, y: 20 }}
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8 }}
-                  className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-center"
+                  className="text-5xl sm:text-5xl md:text-6xl lg:text-7xl font-bold leading-tight mb-8 text-center"
                 >
                   I craft products,
                   <br />
@@ -180,7 +180,7 @@ export default function Page() {
                 >
                   <ArrowDown size={32} className="animate-bounce" />
                 </motion.div>
-                <div className="mt-32">
+                <div className="lg:mt-48 mt-32">
                   <div className="">
                     <Project />
                   </div>
