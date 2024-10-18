@@ -184,7 +184,7 @@ export default function About() {
       </div>
 
       <div className="my-20">
-        <h5 className="font-semibold"> In case you don't want to read through the boring stuff, I treat the
+        <h5 className="font-semibold"> In case you dont want to read through the boring stuff, I treat the
         following sections as something like a personal library.</h5>
       </div>
 
